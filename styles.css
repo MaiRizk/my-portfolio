@@ -142,26 +142,26 @@ h1 {
 }
 
 .primary-btn {
-	color: #396df2;
-	font-size: 17px;
-	font-weight: 500;
-	background: white;
-	border: 1px solid #7F8CFF;
-	border-radius: 8px;
-	padding: 12px 13px;
-	margin-bottom: 12px;
-	font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  background: white;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  padding: 12px 13px;
+  margin-bottom: 12px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .primary-btn:hover {
-	background-color: #6070FF;
-	color: white;
-	box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  background-color: #6070FF;
+  color: white;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .primary-btn:active {
-	background-color: #2230D2;
-	color: white;
+  background-color: #2230d2;
+  color: white;
 }
 
 .about-me {
