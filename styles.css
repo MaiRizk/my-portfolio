@@ -464,4 +464,17 @@ form button {
   .card:nth-child(even) .card-img {
     width: 48.5%;
   }
+
+  .primary-btn:hover {
+    font-size: 20px;
+  }
+
+  .card-img:hover {
+    width: 102%;
+    height: 102%;
+  }
+
+  form p:hover {
+    transform: translate(50px, 0);
+  }
 }
