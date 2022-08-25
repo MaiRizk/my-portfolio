@@ -477,4 +477,13 @@ form button {
   form p:hover {
     transform: translate(50px, 0);
   }
+
+  .nav-header {
+    animation: turn 1s linear;
+  }
+
+  @keyframes turn {
+    100%{transform: rotate(360deg);}
+  }
+  
 }
