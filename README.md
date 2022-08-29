@@ -13,6 +13,10 @@ It's now updated with a section to contain work examples and another section for
 - HTML
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://mairizk.github.io/my-portfolio/)
+
 ## Authors
 
 👤 **Mai Rizk**
