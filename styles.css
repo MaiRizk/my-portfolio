@@ -37,6 +37,8 @@ header {
 }
 
 .overlay a {
+  padding: 8px;
+  font-size: 40px;
   text-decoration: none;
   font-weight: 600;
   color: white;
