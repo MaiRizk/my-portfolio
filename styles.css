@@ -295,7 +295,6 @@ form p {
 }
 
 .form-input {
-  width: -webkit-fill-available;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   color: #172b4d;
@@ -431,7 +430,7 @@ form button {
   }
 
   .primary-btn {
-    transition: padding 3s font-size 3s;
+    transition: padding 3s, font-size 3s;
     cursor: pointer;
     min-width: 140px;
     margin-top: 20px;
@@ -505,7 +504,7 @@ form button {
     flex-direction: row-reverse;
     gap: 3%;
   }
-  
+
   .card-img:hover {
     width: 102%;
     height: 102%;
