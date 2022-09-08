@@ -143,6 +143,14 @@ h1 {
   width: 100%;
 }
 
+.modal-img {
+  width: 100%;
+}
+
+#close-icon {
+  cursor: pointer;
+}
+
 .card-title {
   margin-top: 12px;
   font-size: 32px;
@@ -166,13 +174,13 @@ h1 {
   color: #344563;
 }
 
-.card ul {
+.ul-card-style {
   margin-top: 12px;
   display: flex;
   margin-bottom: 20px;
 }
 
-.card li {
+.li-card-style {
   background: #ebebff;
   color: #6070ff;
   font-size: 12px;
@@ -322,6 +330,62 @@ form button {
   margin-bottom: 0;
 }
 
+.modal {
+  position: fixed;
+  z-index: 20;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(69 68 72 / 40%);
+  backdrop-filter: blur(5px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-card {
+  width: 85%;
+  height: 88%;
+  overflow: auto;
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.modal-card .card-details {
+  padding-bottom: 20px;
+}
+
+.modal-title h3 {
+  margin: 0;
+}
+
+.modal-button {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.modal-button img {
+  margin-left: 12px;
+}
+
+.modal-card .ul-card-style {
+  border-bottom: 1px solid #ebecf0;
+  padding-bottom: 20px;
+}
+
+.modal-buttons {
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     margin: 25px 13%;
@@ -398,6 +462,10 @@ form button {
     height: 100%;
   }
 
+  .modal-img {
+    height: 100%;
+  }
+
   .card-title {
     margin-top: 24px;
     font-size: 40px;
@@ -410,6 +478,22 @@ form button {
     font-weight: 400;
   }
 
+  .modal-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    padding: 24px;
+    margin-bottom: 0;
+    width: 85%;
+    height: 88%;
+    overflow: auto;
+    grid-gap: unset;
+  }
+
+  .modal-title {
+    margin-bottom: 16px;
+  }
+
   .active-span {
     font-weight: 500;
   }
@@ -419,10 +503,25 @@ form button {
     margin-bottom: 20px;
   }
 
-  .card-details {
+  .modal-card .card-details {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding-bottom: 36px;
+  }
+
+  .modal-card .card-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 24px;
+  }
+
+  form p:hover {
+    transform: translate(50px, 0);
+  }
+
+  .modal-card .card-content p {
+    margin: 0;
   }
 
   .social-links img {
@@ -514,8 +613,8 @@ form button {
     width: 48.5%;
   }
 
-  form p:hover {
-    transform: translate(50px, 0);
+  .card:nth-child(even) .card-img:hover {
+    width: 50.5%;
   }
 
   .nav-header {
