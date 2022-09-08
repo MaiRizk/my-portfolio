@@ -512,6 +512,7 @@ form button {
 
   .modal-card .card-content {
     margin-bottom: 59px;
+    margin-top: 59px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 24px;
