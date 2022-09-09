@@ -14,6 +14,11 @@ header {
   color: #6070ff;
 }
 
+#email.active {
+  border: 2px solid red;
+  margin-bottom: 0;
+}
+
 nav a {
   display: none;
 }
