@@ -69,7 +69,6 @@ function renderTechnologies(items) {
     const li = document.createElement('li');
     li.innerHTML = `<span>${items[i]}</span>`;
     li.classList.add('li-card-style');
-    ul.appendChild(li);
   }
   return ul.outerHTML;
 }
