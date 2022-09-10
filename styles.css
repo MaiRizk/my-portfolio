@@ -10,8 +10,19 @@ header {
   margin: 26px 24px;
 }
 
+small {
+  width: 94%;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .primary {
   color: #6070ff;
+}
+
+#email.active {
+  border: 2px solid red;
 }
 
 nav a {
@@ -317,6 +328,7 @@ form p {
 
 textarea {
   min-height: 170px;
+  margin-bottom: 0;
 }
 
 form button {
@@ -593,6 +605,10 @@ form button {
     width: 88%;
     margin: auto auto 20px auto;
     border-radius: 2px;
+  }
+
+  .textarea {
+    margin-bottom: 0;
   }
 
   .social-links img:hover {

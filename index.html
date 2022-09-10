@@ -166,7 +166,7 @@
 			</div>
 		</section>
 		<footer id="Contact">
-			<form action="https://formspree.io/f/xpznwdae" method="POST">
+			<form id="form" action="https://formspree.io/f/xpznwdae" method="POST">
 				<div class="form-container">
 					<h4>Contact me</h4>
 					<p>
@@ -186,16 +186,18 @@
 						class="form-input"
 						type="email"
 						name="email"
+						id="email"
 						placeholder="Type your email address"
 						required
 					/>
 					<textarea
-						class="form-input"
+						class="form-input textarea"
 						placeholder="Write your message here"
 						maxlength="500"
 						required
 					>
 					</textarea>
+					<small id="error"></small>
 					<button class="primary-btn" type="submit">Get in Touch</button>
 				</div>
 			</form>

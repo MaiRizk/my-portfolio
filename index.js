@@ -153,3 +153,17 @@ addEventListener('load', () => {
     document.getElementById(`button-${i}`).addEventListener('click', openPopup);
   }
 });
+
+const form = document.getElementById('form');
+const error = document.getElementById('error');
+const email = document.getElementById('email');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (event.target[1].value === event.target[1].value.toLowerCase()) {
+    form.submit();
+  } else {
+    email.classList.add('active');
+    error.innerText = "Please enter email in lowercase like 'aaaa@mail.com'";
+  }
+});
