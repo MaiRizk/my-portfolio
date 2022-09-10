@@ -10,6 +10,12 @@ header {
   margin: 26px 24px;
 }
 
+small {
+  width: 94%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
 .primary {
   color: #6070ff;
 }
