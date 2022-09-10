@@ -164,6 +164,6 @@ form.addEventListener('submit', (event) => {
     form.submit();
   } else {
     email.classList.add('active');
-    error.innerText = "Please enter email in lowercase like 'aaaa@gmail.com'";
+    error.innerText = "Please enter email in lowercase like 'aaaa@mail.com'";
   }
 });
